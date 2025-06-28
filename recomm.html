@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Final Project</title>
+    <script src="https://kit.fontawesome.com/9b269ea2d4.js" crossorigin="anonymous"></script>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bitcount+Grid+Double:wght@100..900&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Edu+QLD+Hand:wght@400..700&family=Edu+SA+Hand:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Indie+Flower&family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playwrite+IT+Moderna:wght@100..400&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><i id="home-icon" class="fa-solid fa-house"></i></a>
+        <ul>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./projectDetails.html">Projects</a></li>
+            <li><a href="./skills.html">Skills</a></li>
+            <li><a href="./recomm.html">Recommendations</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <div class="principal-name">
+            <h1>ValenDi</h1>
+        </div>
+
+        <div class="addComment-container">
+            <h6>Leave your thoughts down below!</h6>
+            <form id="recommendation-form">
+                <input type="text" id="recommender-name" placeholder="Name..." required>
+                <br>
+                <textarea id="recommendation-text" placeholder="Comment..." required></textarea>
+                <br>
+                <button class="comment-btn" type="submit">Comment</button>
+            </form>
+        </div>
+
+        <div id="recomm-container" class="recomm-container">
+
+            <div class="recommendation">
+                <i class="fa-solid fa-user"></i>
+                <h7>Luna</h7>
+                <p>"The cutest work so far! Love pink ❤️"</p>
+            </div>
+            <div class="recommendation">
+                <i class="fa-solid fa-user"></i>
+                <h7>Zayne</h7>
+                <p>"Great start, keep going 👍"</p>
+            </div>
+            <div class="recommendation">
+                <i class="fa-solid fa-user"></i>
+                <h7>Sara</h7>
+                <p>"Simple coding but well made."</p>
+            </div>
+        </div>
+
+        <div id="recommendation-list"></div>
+
+            </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
